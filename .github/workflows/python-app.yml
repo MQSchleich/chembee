@@ -28,10 +28,15 @@ jobs:
       - name: Bash
         shell: bash -l {0}
         run: |
+          conda create -n chembee
+          conda activate chembee
           conda install  -y -c conda-forge rdkit matplotlib tqdm pandas numpy scikit-learn
+
       - name: PowerShell Core
         shell: pwsh
         run: |
+          conda create -n chembee
+          conda activate chembee
           conda install -y -c conda-forge rdkit matplotlib tqdm pandas numpy scikit-learn
       - name: Lint with flake8
         run: |
