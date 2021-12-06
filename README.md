@@ -1,3 +1,4 @@
+![Polar Chart](tests/plots.png)
 # chembee
 Data processing for chemistry and drug design
 
@@ -5,6 +6,9 @@ Data processing for chemistry and drug design
 
 https://stackoverflow.com/questions/57062757/how-to-generate-a-graph-from-a-smiles-molecule-representation
 
-#References 
+# Visuals 
+Get to know your data with especially polar charts. 
+
+# References 
 
 1. Ruiz-Moreno, A. J., Reyes-Romero, A., Dömling, A., & Velasco-Velázquez, M. A. (2021). In silico design and selection of new tetrahydroisoquinoline-based CD44 antagonist candidates. Molecules (Basel, Switzerland), 26(7), 1877.
