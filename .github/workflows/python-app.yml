@@ -28,11 +28,11 @@ jobs:
       - name: Bash
         shell: bash -l {0}
         run: |
-          conda install  -y -c conda-forge rdkit matplotlib tqdm pandas numpy scikt-learn
+          conda install  -y -c conda-forge rdkit matplotlib tqdm pandas numpy scikit-learn
       - name: PowerShell Core
         shell: pwsh
         run: |
-          conda install -y -c conda-forge rdkit matplotlib tqdm pandas numpy scikt-learn
+          conda install -y -c conda-forge rdkit matplotlib tqdm pandas numpy scikit-learn
       - name: Lint with flake8
         run: |
           # stop the build if there are Python syntax errors or undefined names
