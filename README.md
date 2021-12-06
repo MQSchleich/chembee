@@ -1,10 +1,7 @@
 ![Polar Chart](tests/plots.png)
-# chembee
+# Chembee
 Data processing for chemistry and drug design
 
-# Howo to generate Graphs 
-
-https://stackoverflow.com/questions/57062757/how-to-generate-a-graph-from-a-smiles-molecule-representation
 
 # Visuals 
 Get to know your data with especially polar charts. 
