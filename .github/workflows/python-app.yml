@@ -23,11 +23,21 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - uses: conda-incubator/setup-miniconda@v2
         with:
-          auto-update-conda: true
-          python-version: ${{ matrix.python-version }}
+          miniconda-version: "latest"
+          activate-environment: chembee
+      - name: Bash
+        shell: bash -l {0}
         run: |
-          conda info
-          conda install -c conda-forge rdkit 
+          conda create -n chembee
+          conda activate chembee
+          conda install  -y -c conda-forge rdkit matplotlib tqdm pandas numpy scikit-learn
+
+      - name: PowerShell Core
+        shell: pwsh
+        run: |
+          conda create -n chembee
+          conda activate chembee
+          conda install -y -c conda-forge rdkit matplotlib tqdm pandas numpy scikit-learn
       - name: Lint with flake8
         run: |
           # stop the build if there are Python syntax errors or undefined names
