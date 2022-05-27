@@ -2,13 +2,13 @@
 
 👉 Code from this repository obtained from GitHub is not licensed and no longer legal to use.
 
-👉 New repo https://codeberg.org/sail.black/dylightful
+👉 New repo https://codeberg.org/sail.black/chembee
 
 🟥 Maintance on GitHub is stopped and all code moves to Codeberg 🟥
 
 👉 Code from this repository obtained from GitHub is not licensed and no longer legal to use.
 
-👉 New repo https://codeberg.org/sail.black/dylightful
+👉 [New repo](https://codeberg.org/sail.black/chembee)
 
 ![Distribution Dataset](tests/plots/plots.png)
 # Chembee
