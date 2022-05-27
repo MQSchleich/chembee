@@ -1,3 +1,15 @@
+🟥 Maintance on GitHub is stopped and all code moves to Codeberg 🟥
+
+👉 Code from this repository obtained from GitHub is not licensed and no longer legal to use.
+
+👉 New repo https://codeberg.org/sail.black/dylightful
+
+🟥 Maintance on GitHub is stopped and all code moves to Codeberg 🟥
+
+👉 Code from this repository obtained from GitHub is not licensed and no longer legal to use.
+
+👉 New repo https://codeberg.org/sail.black/dylightful
+
 ![Distribution Dataset](tests/plots/plots.png)
 # Chembee
 Data processing for chemistry and drug design
@@ -24,3 +36,9 @@ Aha! We have a relation to drug design here.
 # How to cite
 
 Before there is a publication, you can always cite the Git. 
+
+🟥 Maintance on GitHub is stopped and all code moves to Codeberg 🟥
+
+👉 Code from this repository obtained from GitHub is not licensed and no longer legal to use.
+
+👉 New repo https://codeberg.org/sail.black/dylightful
